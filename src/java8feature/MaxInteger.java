@@ -8,7 +8,6 @@ public class MaxInteger {
         List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
         int max = numbers.stream().mapToInt(Integer::intValue)
                 .max().orElse(Integer.MIN_VALUE);
-
         System.out.println("Max:" + max);
     }
 }

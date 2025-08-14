@@ -49,8 +49,5 @@ public class LmbdaForEvenNumbers {
         List<Integer> numbers2=Arrays.asList(2,4,6,8,10);
         boolean allEvens=numbers2.stream().allMatch(n->n%2==0);
         System.out.println("All evens: "+allEvens);
-
-
-
     }
 }

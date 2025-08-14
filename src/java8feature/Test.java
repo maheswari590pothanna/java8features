@@ -17,7 +17,6 @@ public class Test {
                 .collect(Collectors.toList());
         filteredList.forEach(System.out::println);
 
-
         List<String> list3 = Arrays.asList("java", "Lambda", "Kafka");
         list3.sort((s1, s2) -> s1.compareTo(s2));
         list3.forEach(System.out::println);
